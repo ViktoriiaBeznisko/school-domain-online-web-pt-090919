@@ -13,7 +13,7 @@ class School
     @add_student = name
     @add_student = grade
     
-    if @roster.include?(grade) == false
+    if @roster.include?(grade) != nill
        @roster[grade] = []
        end
        @roster[grade] << name
