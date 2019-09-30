@@ -25,7 +25,9 @@ class School
 
 
   def sort
-    sort.roster
+    @sort.each do |a, b|
+      b.sort
+    end
   
 end
 
