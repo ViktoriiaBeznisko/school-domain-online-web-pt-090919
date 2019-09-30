@@ -22,7 +22,9 @@ class School
     def grade=(num)
       @grade = num
     end
-    
+    def grade
+      @grade
+    end
   
 end
 
