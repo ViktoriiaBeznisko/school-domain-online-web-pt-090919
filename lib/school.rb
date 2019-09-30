@@ -16,7 +16,8 @@ class School
     if roster[grade] != nill
       roster[grade] << name
       
-     end 
+    else @roster[grade] = [name]
+    end 
   end
   
   
