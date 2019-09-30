@@ -13,11 +13,10 @@ class School
     @add_student = name
     @add_student = grade
     
-    if roster[grade] != nill
-      roster[grade] << name
-      
-    else @roster[grade] = [name]
-    end 
+    if @roster[grade] != nill
+       @roster[grade] << name
+      end
+      @roster[grade] = [name]
   end
   
   
