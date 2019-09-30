@@ -17,17 +17,17 @@ class School
        @roster[grade] = []
        end
        @roster[grade] << name
-    end
+  end
     
-    def grade(num)
+  def grade(num)
       @roster[num]
-    end
+  end
 
 
   def sort
-    @sort.each do |a, b|
-      b.sort
-    end
+    @sort.each do |key, value|
+    value.sort
+  end
   
 end
 
